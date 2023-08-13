@@ -1,6 +1,3 @@
-python
-Copy code
-readme_content = """
 # Image to Text OCR Script
 
 This script performs Optical Character Recognition (OCR) on an image and extracts clean text. It utilizes the `gradio_client` library to interact with an OCR service.
