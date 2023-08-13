@@ -1,6 +1,12 @@
 # Image to Text OCR Script
 
-This script performs Optical Character Recognition (OCR) on an image and extracts clean text. It utilizes the `gradio_client` library to interact with an OCR service.
+This script performs Optical Character Recognition (OCR) on an image and extracts clean text. It utilizes the `gradio_client` library to interact with an OCR service API.
+
+## API Service
+
+The script uses the `gradio_client` library to connect to an OCR service API. The API processes the provided image and returns extracted text. You can specify the URL of the API service using the `--client_url` option.
+
+
 
 ## Prerequisites
 
