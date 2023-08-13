@@ -4,7 +4,8 @@ This script performs Optical Character Recognition (OCR) on an image and extract
 
 ## API Service
 
-The script uses the `gradio_client` library to connect to an OCR service API. The API processes the provided image and returns extracted text. You can specify the URL of the API service using the `--client_url` option.
+The script uses the `gradio_client` library to connect to an OCR service API. The default API is hosted on Hugging Face with 16 GB RAM and 2 vCPUs here: https://orkhan-image2text-ocr.hf.space/. You can specify a different API URL using the `--client_url` option.
+
 
 
 
@@ -48,3 +49,6 @@ Feel free to customize this README further to match your script's details and re
 
 # Future Improvements
 - cleaning steps should be improved in this function: `clean_text_from_html_tags`
+
+# Copyright
+© Orkhan Amrullayev 2023
