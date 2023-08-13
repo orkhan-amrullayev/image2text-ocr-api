@@ -1,10 +1,6 @@
 from gradio_client import Client
 import re
 
-client_str = "https://jackwrion-ocr.hf.space/"
-client = Client(client_str)
-
-path_to_jpeg = "Image 2023-08-13 at 17.42.22.jpeg"
 
 
 def image2text_ocr(client, path_to_jpeg):  
@@ -21,6 +17,12 @@ def image2text_ocr(client, path_to_jpeg):
   return clean_text
 
 
+
 ## inference
+client_str = "https://orkhan-image2text-ocr.hf.space"
+client = Client(client_str)
+
+path_to_jpeg = "Image 2023-08-13 at 17.42.22.jpeg"
+
 output = image2text_ocr(client, path_to_jpeg)
 print(output)
